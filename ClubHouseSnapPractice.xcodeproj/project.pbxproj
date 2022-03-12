@@ -7,23 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		115173D927DCE39D00F6361B /* ExNSAttributedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115173D827DCE39D00F6361B /* ExNSAttributedString.swift */; };
 		117A7B0C27DA2AED00CB62F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117A7B0B27DA2AED00CB62F4 /* AppDelegate.swift */; };
 		117A7B0E27DA2AED00CB62F4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117A7B0D27DA2AED00CB62F4 /* SceneDelegate.swift */; };
 		117A7B1027DA2AED00CB62F4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117A7B0F27DA2AED00CB62F4 /* ViewController.swift */; };
-		117A7B1327DA2AED00CB62F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 117A7B1127DA2AED00CB62F4 /* Main.storyboard */; };
 		117A7B1527DA2AEF00CB62F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 117A7B1427DA2AEF00CB62F4 /* Assets.xcassets */; };
-		117A7B1827DA2AEF00CB62F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 117A7B1627DA2AEF00CB62F4 /* LaunchScreen.storyboard */; };
+		117A7B2627DB65D300CB62F4 /* Nunito.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 117A7B2427DB65D300CB62F4 /* Nunito.ttf */; };
+		117A7B2727DB65D300CB62F4 /* Nunito-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 117A7B2527DB65D300CB62F4 /* Nunito-Italic.ttf */; };
+		69B41BEDC17892A00D317420 /* Pods_ClubHouseSnapPractice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0523A192F75B8096BED69A25 /* Pods_ClubHouseSnapPractice.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0523A192F75B8096BED69A25 /* Pods_ClubHouseSnapPractice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ClubHouseSnapPractice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		115173D827DCE39D00F6361B /* ExNSAttributedString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExNSAttributedString.swift; sourceTree = "<group>"; };
+		115173DA27DCF7FB00F6361B /* .gitignore.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = .gitignore.md; sourceTree = "<group>"; };
 		117A7B0827DA2AED00CB62F4 /* ClubHouseSnapPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClubHouseSnapPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		117A7B0B27DA2AED00CB62F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		117A7B0D27DA2AED00CB62F4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		117A7B0F27DA2AED00CB62F4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		117A7B1227DA2AED00CB62F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		117A7B1427DA2AEF00CB62F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		117A7B1727DA2AEF00CB62F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		117A7B1927DA2AEF00CB62F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		117A7B2427DB65D300CB62F4 /* Nunito.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Nunito.ttf; sourceTree = "<group>"; };
+		117A7B2527DB65D300CB62F4 /* Nunito-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Italic.ttf"; sourceTree = "<group>"; };
+		1363B860778CD788A054C690 /* Pods-ClubHouseSnapPractice.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClubHouseSnapPractice.release.xcconfig"; path = "Target Support Files/Pods-ClubHouseSnapPractice/Pods-ClubHouseSnapPractice.release.xcconfig"; sourceTree = "<group>"; };
+		911729AD8651E6E110EE4910 /* Pods-ClubHouseSnapPractice.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClubHouseSnapPractice.debug.xcconfig"; path = "Target Support Files/Pods-ClubHouseSnapPractice/Pods-ClubHouseSnapPractice.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +38,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69B41BEDC17892A00D317420 /* Pods_ClubHouseSnapPractice.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +50,8 @@
 			children = (
 				117A7B0A27DA2AED00CB62F4 /* ClubHouseSnapPractice */,
 				117A7B0927DA2AED00CB62F4 /* Products */,
+				27B5CDB02003325E47777343 /* Pods */,
+				6E98D5D0EEFF8BE3639F599A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +66,42 @@
 		117A7B0A27DA2AED00CB62F4 /* ClubHouseSnapPractice */ = {
 			isa = PBXGroup;
 			children = (
+				117A7B1F27DB609F00CB62F4 /* font */,
 				117A7B0B27DA2AED00CB62F4 /* AppDelegate.swift */,
 				117A7B0D27DA2AED00CB62F4 /* SceneDelegate.swift */,
 				117A7B0F27DA2AED00CB62F4 /* ViewController.swift */,
-				117A7B1127DA2AED00CB62F4 /* Main.storyboard */,
 				117A7B1427DA2AEF00CB62F4 /* Assets.xcassets */,
-				117A7B1627DA2AEF00CB62F4 /* LaunchScreen.storyboard */,
 				117A7B1927DA2AEF00CB62F4 /* Info.plist */,
+				115173D827DCE39D00F6361B /* ExNSAttributedString.swift */,
+				115173DA27DCF7FB00F6361B /* .gitignore.md */,
 			);
 			path = ClubHouseSnapPractice;
+			sourceTree = "<group>";
+		};
+		117A7B1F27DB609F00CB62F4 /* font */ = {
+			isa = PBXGroup;
+			children = (
+				117A7B2527DB65D300CB62F4 /* Nunito-Italic.ttf */,
+				117A7B2427DB65D300CB62F4 /* Nunito.ttf */,
+			);
+			path = font;
+			sourceTree = "<group>";
+		};
+		27B5CDB02003325E47777343 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				911729AD8651E6E110EE4910 /* Pods-ClubHouseSnapPractice.debug.xcconfig */,
+				1363B860778CD788A054C690 /* Pods-ClubHouseSnapPractice.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6E98D5D0EEFF8BE3639F599A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0523A192F75B8096BED69A25 /* Pods_ClubHouseSnapPractice.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +111,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 117A7B1C27DA2AEF00CB62F4 /* Build configuration list for PBXNativeTarget "ClubHouseSnapPractice" */;
 			buildPhases = (
+				CF70DE517E6D496687931A7C /* [CP] Check Pods Manifest.lock */,
 				117A7B0427DA2AED00CB62F4 /* Sources */,
 				117A7B0527DA2AED00CB62F4 /* Frameworks */,
 				117A7B0627DA2AED00CB62F4 /* Resources */,
+				116260BE50E5D5D01477905F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,13 +164,55 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				117A7B1827DA2AEF00CB62F4 /* LaunchScreen.storyboard in Resources */,
+				117A7B2627DB65D300CB62F4 /* Nunito.ttf in Resources */,
+				117A7B2727DB65D300CB62F4 /* Nunito-Italic.ttf in Resources */,
 				117A7B1527DA2AEF00CB62F4 /* Assets.xcassets in Resources */,
-				117A7B1327DA2AED00CB62F4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		116260BE50E5D5D01477905F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ClubHouseSnapPractice/Pods-ClubHouseSnapPractice-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ClubHouseSnapPractice/Pods-ClubHouseSnapPractice-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ClubHouseSnapPractice/Pods-ClubHouseSnapPractice-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF70DE517E6D496687931A7C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ClubHouseSnapPractice-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		117A7B0427DA2AED00CB62F4 /* Sources */ = {
@@ -140,30 +221,12 @@
 			files = (
 				117A7B1027DA2AED00CB62F4 /* ViewController.swift in Sources */,
 				117A7B0C27DA2AED00CB62F4 /* AppDelegate.swift in Sources */,
+				115173D927DCE39D00F6361B /* ExNSAttributedString.swift in Sources */,
 				117A7B0E27DA2AED00CB62F4 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		117A7B1127DA2AED00CB62F4 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				117A7B1227DA2AED00CB62F4 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		117A7B1627DA2AEF00CB62F4 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				117A7B1727DA2AEF00CB62F4 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		117A7B1A27DA2AEF00CB62F4 /* Debug */ = {
@@ -284,9 +347,11 @@
 		};
 		117A7B1D27DA2AEF00CB62F4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 911729AD8651E6E110EE4910 /* Pods-ClubHouseSnapPractice.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 8BFJ4VQ97J;
@@ -294,9 +359,10 @@
 				INFOPLIST_FILE = ClubHouseSnapPractice/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -306,15 +372,17 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		117A7B1E27DA2AEF00CB62F4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1363B860778CD788A054C690 /* Pods-ClubHouseSnapPractice.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 8BFJ4VQ97J;
@@ -322,9 +390,10 @@
 				INFOPLIST_FILE = ClubHouseSnapPractice/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -334,7 +403,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
