@@ -1,4 +1,5 @@
 # snapkit-clubhouse-practice
 
 
-![Uploading Снимок экрана 2022-03-13 в 12.55.10.png…]()
+<img width="335" alt="image" src="https://user-images.githubusercontent.com/55939234/158068475-1870f92f-5291-47c6-ac77-b4643c097929.png">
+
